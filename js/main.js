@@ -3,6 +3,11 @@
  *
  * ------------------------------------------------------------------- */
 
+function scrollToId(element){
+	document.getElementById(element).scrollIntoView();
+}
+
+
 (function($) {
 
     "use strict";
